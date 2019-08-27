@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Twig Example</title>
-</head>
-<body>
 
-    <ul>
-    {% for item in foo %}
-        <li>{{ item.name }}</li>
-    {% endfor %}
-    </ul>
+{% extends "layout.html" %}
 
-</body>
-</html>
+	{% block content %}
+	    <ul>
+	    {% for item in foo %}
+	        <li>{{ item.name }}</li>
+	    {% endfor %}
+	    </ul>
+
+{% endblock %}
