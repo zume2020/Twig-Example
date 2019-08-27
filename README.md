@@ -3,6 +3,11 @@
 
 Sample Twig integration PHP
 
+## Installation
+Installing Twig using Composer.
+
+```composer require twig/twig```
+
 ## License
 
 The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
