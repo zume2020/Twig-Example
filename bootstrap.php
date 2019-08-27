@@ -1,10 +1,10 @@
 <?php
 
-// Load our autoloader
+// Load the autoloader
 require_once __DIR__.'/vendor/autoload.php';
 
-// Specify our Twig templates location
+// Twig templates location
 $loader = new Twig_Loader_Filesystem(__DIR__.'/templates');
 
- // Instantiate our Twig
+ // Instantiate Twig
 $twig = new Twig_Environment($loader);
