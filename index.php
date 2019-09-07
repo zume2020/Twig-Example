@@ -3,11 +3,6 @@
 require_once __DIR__.'/bootstrap.php';
 
 // Sample data
-$foo = [
-  [ 'name'          => 'Alice' ],
-  [ 'name'          => 'Bob' ],
-  [ 'name'          => 'Eve' ],
-];
 
 $users = [
   [ 'user'          => 'zume' ],
